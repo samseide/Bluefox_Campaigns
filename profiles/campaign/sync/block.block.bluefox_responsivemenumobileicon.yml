@@ -1,0 +1,20 @@
+uuid: d9cd1b68-907c-47f8-9146-84ce1c1511b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - bluefox
+id: bluefox_responsivemenumobileicon
+theme: bluefox
+region: header
+weight: -5
+provider: null
+plugin: responsive_menu_toggle
+settings:
+  id: responsive_menu_toggle
+  label: 'Responsive menu mobile icon'
+  provider: responsive_menu
+  label_display: '0'
+visibility: {  }

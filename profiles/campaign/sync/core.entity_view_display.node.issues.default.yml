@@ -1,0 +1,49 @@
+uuid: f2997947-bec2-4c6a-aeb0-e19de69bfdfb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.issues.body
+    - field.field.node.issues.field_important_issue
+    - field.field.node.issues.field_issue_icon
+    - node.type.issues
+  module:
+    - fontawesome
+    - text
+    - user
+id: node.issues.default
+targetEntityType: node
+bundle: issues
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_important_issue:
+    weight: 0
+    label: inline
+    settings:
+      format: yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_issue_icon:
+    weight: 1
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    type: fontawesome_icon_formatter
+    region: content
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

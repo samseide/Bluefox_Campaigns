@@ -1,0 +1,31 @@
+uuid: cad426f4-6c55-4d77-a44f-9c2496470e27
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.body_copy.field_bg_color
+    - field.field.paragraph.body_copy.field_body_copy
+    - paragraphs.paragraphs_type.body_copy
+  module:
+    - options
+    - text
+id: paragraph.body_copy.default
+targetEntityType: paragraph
+bundle: body_copy
+mode: default
+content:
+  field_bg_color:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_body_copy:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

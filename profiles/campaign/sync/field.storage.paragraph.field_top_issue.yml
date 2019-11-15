@@ -1,0 +1,21 @@
+uuid: fcdc1801-c400-4c83-bc16-3418f1f7b694
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - views
+    - viewsreference
+id: paragraph.field_top_issue
+field_name: field_top_issue
+entity_type: paragraph
+type: viewsreference
+settings:
+  target_type: view
+module: viewsreference
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

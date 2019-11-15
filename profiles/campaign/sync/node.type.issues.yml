@@ -1,0 +1,18 @@
+uuid: f5884d26-a2ae-450f-8b23-bc77d28b15f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Issues
+type: issues
+description: 'Important campaign points specific to our candidate.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

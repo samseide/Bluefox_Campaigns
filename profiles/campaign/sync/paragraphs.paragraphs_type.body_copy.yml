@@ -1,0 +1,9 @@
+uuid: c42f0901-18eb-49c4-b2d0-01bf0d5257c5
+langcode: en
+status: true
+dependencies: {  }
+id: body_copy
+label: 'Body Copy'
+icon_uuid: null
+description: 'Body copy only no images'
+behavior_plugins: {  }

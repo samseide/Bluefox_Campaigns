@@ -1,0 +1,23 @@
+uuid: 6c208a35-1489-4edd-89dc-eab0b73bda13
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_drop_shadow
+    - paragraphs.paragraphs_type.full_width_image_with_copy
+id: paragraph.full_width_image_with_copy.field_text_drop_shadow
+field_name: field_text_drop_shadow
+entity_type: paragraph
+bundle: full_width_image_with_copy
+label: 'Text Drop Shadow'
+description: 'If your image is on a light background, turn this on to get a faint drop shadow around your text to make it more visible.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,9 @@
+uuid: 98557984-4b60-4ffb-ad81-2e09d059d2c7
+langcode: en
+status: true
+dependencies: {  }
+id: list
+label: List
+icon_uuid: null
+description: 'Containing paragraph for a list of items.'
+behavior_plugins: {  }

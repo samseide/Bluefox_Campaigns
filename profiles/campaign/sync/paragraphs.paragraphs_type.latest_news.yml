@@ -1,0 +1,9 @@
+uuid: 627db325-f722-47a6-86da-552618785c35
+langcode: en
+status: true
+dependencies: {  }
+id: latest_news
+label: 'Latest News'
+icon_uuid: null
+description: 'Displays latest news article summaries with options to read more.'
+behavior_plugins: {  }

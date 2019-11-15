@@ -1,0 +1,20 @@
+uuid: fd8f913b-6591-4cf5-8541-02b784ba5f6e
+langcode: en
+status: true
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - campaign_base
+id: horizontalmenu
+theme: campaign_base
+region: header
+weight: -6
+provider: null
+plugin: responsive_menu_horizontal_menu
+settings:
+  id: responsive_menu_horizontal_menu
+  label: 'Horizontal menu'
+  provider: responsive_menu
+  label_display: '0'
+visibility: {  }

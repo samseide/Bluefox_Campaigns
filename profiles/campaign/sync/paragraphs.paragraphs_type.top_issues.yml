@@ -1,0 +1,9 @@
+uuid: 8a756e41-6c64-4823-b4e0-d103a7aef9a6
+langcode: en
+status: true
+dependencies: {  }
+id: top_issues
+label: 'Top Issues'
+icon_uuid: null
+description: 'Lists out the candidates top issues chosen from the issues category.'
+behavior_plugins: {  }

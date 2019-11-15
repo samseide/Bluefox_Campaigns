@@ -1,0 +1,38 @@
+uuid: 6422547a-660a-4e64-a32d-bcb48101c6b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.top_issues.field_half_width_of_screen_image
+    - field.field.paragraph.top_issues.field_top_issue
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.top_issues
+  module:
+    - image
+    - viewsreference
+id: paragraph.top_issues.default
+targetEntityType: paragraph
+bundle: top_issues
+mode: default
+content:
+  field_half_width_of_screen_image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_top_issue:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+    third_party_settings: {  }
+    type: viewsreference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,49 @@
+uuid: 4556d707-b58f-4408-a9f5-e114d27782d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_list_items
+    - paragraphs.paragraphs_type.list
+    - paragraphs.paragraphs_type.list_item
+  module:
+    - entity_reference_revisions
+id: paragraph.list.field_list_items
+field_name: field_list_items
+entity_type: paragraph
+bundle: list
+label: 'List Item'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      list_item: list_item
+    target_bundles_drag_drop:
+      list_item:
+        enabled: true
+        weight: 8
+      body_copy:
+        weight: 9
+        enabled: false
+      body_copy_with_image:
+        weight: 10
+        enabled: false
+      full_width_image_with_copy:
+        weight: 11
+        enabled: false
+      latest_news:
+        weight: 12
+        enabled: false
+      list:
+        weight: 13
+        enabled: false
+      top_issues:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

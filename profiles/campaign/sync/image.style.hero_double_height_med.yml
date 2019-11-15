@@ -1,0 +1,14 @@
+uuid: 4b0e48b9-31b5-400c-b5f4-4cbfd4d36a87
+langcode: en
+status: true
+dependencies: {  }
+name: hero_double_height_med
+label: 'Hero Double Height Medium'
+effects:
+  60debb49-770e-403c-a7e8-b48c152673de:
+    uuid: 60debb49-770e-403c-a7e8-b48c152673de
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 800

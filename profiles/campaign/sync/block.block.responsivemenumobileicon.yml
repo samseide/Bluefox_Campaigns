@@ -1,0 +1,20 @@
+uuid: 755c3262-88c2-453d-b671-47e82a52b167
+langcode: en
+status: true
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - campaign_base
+id: responsivemenumobileicon
+theme: campaign_base
+region: header
+weight: -5
+provider: null
+plugin: responsive_menu_toggle
+settings:
+  id: responsive_menu_toggle
+  label: 'Responsive menu mobile icon'
+  provider: responsive_menu
+  label_display: '0'
+visibility: {  }

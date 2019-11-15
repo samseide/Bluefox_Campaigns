@@ -1,0 +1,23 @@
+uuid: ed2ca313-0b3a-4ba7-91e2-b7979a733c53
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body_copy_image_position
+    - paragraphs.paragraphs_type.body_copy_with_image
+  module:
+    - options
+id: paragraph.body_copy_with_image.field_body_copy_image_position
+field_name: field_body_copy_image_position
+entity_type: paragraph
+bundle: body_copy_with_image
+label: 'Image Position'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

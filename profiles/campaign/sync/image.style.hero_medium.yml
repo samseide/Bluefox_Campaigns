@@ -1,0 +1,14 @@
+uuid: e4cd466d-be88-462b-992b-139089694ef8
+langcode: en
+status: true
+dependencies: {  }
+name: hero_medium
+label: 'Hero Medium'
+effects:
+  3599ac44-710b-478b-acf4-3e048e142be7:
+    uuid: 3599ac44-710b-478b-acf4-3e048e142be7
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 400

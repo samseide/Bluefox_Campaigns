@@ -1,0 +1,24 @@
+uuid: f02afbbe-af33-4c96-86c0-b04b691a9260
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.latest_news.field_latest_news_articles
+    - paragraphs.paragraphs_type.latest_news
+  module:
+    - viewsreference
+id: paragraph.latest_news.default
+targetEntityType: paragraph
+bundle: latest_news
+mode: default
+content:
+  field_latest_news_articles:
+    weight: 0
+    label: above
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    type: viewsreference_formatter
+    region: content
+hidden: {  }

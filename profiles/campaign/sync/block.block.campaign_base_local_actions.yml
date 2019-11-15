@@ -1,0 +1,20 @@
+uuid: e879022e-157b-42be-8599-5a2cd6e30d9e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - campaign_base
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: campaign_base_local_actions
+theme: campaign_base
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

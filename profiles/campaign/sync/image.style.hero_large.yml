@@ -1,0 +1,14 @@
+uuid: 402e980d-f561-466d-95bc-c7423ed119e2
+langcode: en
+status: true
+dependencies: {  }
+name: hero_large
+label: 'Hero Large'
+effects:
+  99aadf21-0a9d-44ef-a175-034911880e54:
+    uuid: 99aadf21-0a9d-44ef-a175-034911880e54
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 2000
+      height: 600

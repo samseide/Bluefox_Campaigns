@@ -1,0 +1,23 @@
+uuid: 778cd394-97b9-4686-8b4a-fff8802e4a62
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.hero_double_height_large
+    - image.style.hero_double_height_med
+    - image.style.hero_double_height_s
+id: hero_double_height
+label: 'Hero Double Height'
+image_style_mappings:
+  -
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - hero_double_height_large
+        - hero_double_height_med
+        - hero_double_height_s
+breakpoint_group: responsive_image
+fallback_image_style: hero_double_height_large

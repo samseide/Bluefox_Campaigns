@@ -1,0 +1,9 @@
+uuid: 26686522-3363-4927-b24e-f96351463aa9
+langcode: en
+status: true
+dependencies: {  }
+id: list_item
+label: 'List Item'
+icon_uuid: null
+description: 'The item enclosed in a List Paragraph'
+behavior_plugins: {  }

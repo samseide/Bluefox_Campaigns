@@ -1,0 +1,22 @@
+uuid: f9f2b646-5746-4325-8611-bd3cbea2e7ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: issues
+label: Issues
+type: 'canonical_entities:node'
+pattern: 'issues/[node:title]'
+selection_criteria:
+  5b1ba397-6ae8-4662-a6cc-6675c2eeacfc:
+    id: node_type
+    bundles:
+      issues: issues
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 5b1ba397-6ae8-4662-a6cc-6675c2eeacfc
+selection_logic: and
+weight: -5
+relationships: {  }

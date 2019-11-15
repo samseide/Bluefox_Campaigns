@@ -1,0 +1,22 @@
+uuid: 97ef11dd-dd79-43ad-a369-1a60dbfdb689
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - bluefox
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: bluefox_help
+theme: bluefox
+region: content
+weight: -1
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

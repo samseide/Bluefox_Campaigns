@@ -1,0 +1,55 @@
+uuid: 19912472-0c10-4476-b92a-a8606991618f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_latest_news_articles
+    - paragraphs.paragraphs_type.latest_news
+    - views.view.latest_news
+  module:
+    - viewsreference
+id: paragraph.latest_news.field_latest_news_articles
+field_name: field_latest_news_articles
+entity_type: paragraph
+bundle: latest_news
+label: 'Latest News Articles'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    options:
+      title: 0
+      argument: ''
+    display_id: block_1
+    argument: null
+    title: 0
+    data: null
+    target_uuid: 5ec7e63d-6ac6-4838-98b1-8d126e69935c
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    block: block
+    default: 0
+    page: 0
+    feed: 0
+  preselect_views:
+    latest_news: latest_news
+    block_content: 0
+    comment: 0
+    comments_recent: 0
+    content: 0
+    content_recent: 0
+    files: 0
+    frontpage: 0
+    media: 0
+    taxonomy_term: 0
+    user_admin_people: 0
+    watchdog: 0
+    who_s_new: 0
+    who_s_online: 0
+field_type: viewsreference

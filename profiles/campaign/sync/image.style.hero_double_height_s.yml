@@ -1,0 +1,14 @@
+uuid: 9465e222-f5e1-4196-946d-6d7035f0f8ca
+langcode: en
+status: true
+dependencies: {  }
+name: hero_double_height_s
+label: 'Hero Double Height Small'
+effects:
+  3427d4bc-907d-4e44-8ada-ceee981b4698:
+    uuid: 3427d4bc-907d-4e44-8ada-ceee981b4698
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 600
+      height: 400

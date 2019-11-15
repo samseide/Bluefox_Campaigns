@@ -1,0 +1,22 @@
+uuid: aa832963-2899-467e-895b-b62e9efb3be4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bluefox
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: bluefox_messages
+theme: bluefox
+region: content
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: dcecd7bb-b29f-4483-afd5-418eff35c213
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - campaign_base
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: campaign_base_help
+theme: campaign_base
+region: content
+weight: -1
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

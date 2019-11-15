@@ -1,0 +1,20 @@
+uuid: 25f68c82-530a-497b-9a6f-db538738a0bb
+langcode: en
+status: false
+dependencies:
+  theme:
+    - campaign_base
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: campaign_base_page_title
+theme: campaign_base
+region: content
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

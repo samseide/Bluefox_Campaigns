@@ -1,0 +1,27 @@
+uuid: 7c5352f4-7280-4231-a5c4-a37fbfecfc12
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.latest_news.field_latest_news_articles
+    - paragraphs.paragraphs_type.latest_news
+  module:
+    - viewsreference
+id: paragraph.latest_news.default
+targetEntityType: paragraph
+bundle: latest_news
+mode: default
+content:
+  field_latest_news_articles:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+    third_party_settings: {  }
+    type: viewsreference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

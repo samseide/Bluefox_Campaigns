@@ -1,0 +1,22 @@
+uuid: ab164e5e-bf4c-421d-8492-8b203263b789
+langcode: en
+status: true
+dependencies:
+  theme:
+    - campaign_base
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: campaign_base_local_tasks
+theme: campaign_base
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

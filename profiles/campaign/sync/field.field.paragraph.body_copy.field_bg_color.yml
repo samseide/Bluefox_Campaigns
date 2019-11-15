@@ -1,0 +1,23 @@
+uuid: 3577ef2c-6bd0-48ca-be89-857bd051a634
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bg_color
+    - paragraphs.paragraphs_type.body_copy
+  module:
+    - options
+id: paragraph.body_copy.field_bg_color
+field_name: field_bg_color
+entity_type: paragraph
+bundle: body_copy
+label: 'BG Color'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: white
+default_value_callback: ''
+settings: {  }
+field_type: list_string

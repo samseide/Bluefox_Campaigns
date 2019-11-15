@@ -1,0 +1,21 @@
+uuid: b90d83c8-c11f-4248-981c-aa451ba96e96
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_issue_icon
+    - node.type.issues
+  module:
+    - fontawesome
+id: node.issues.field_issue_icon
+field_name: field_issue_icon
+entity_type: node
+bundle: issues
+label: 'Issue Icon'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

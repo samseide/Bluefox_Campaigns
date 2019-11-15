@@ -1,0 +1,9 @@
+uuid: d20507da-89a6-4cc8-8874-5e91e8630640
+langcode: en
+status: true
+dependencies: {  }
+id: full_width_image_with_copy
+label: 'Full Width Image with Copy'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

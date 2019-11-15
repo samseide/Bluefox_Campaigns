@@ -1,0 +1,9 @@
+uuid: 664df164-0f28-4320-82f1-7519d6f673d3
+langcode: en
+status: true
+dependencies: {  }
+id: body_copy_with_image
+label: 'Body Copy With Image'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,14 @@
+uuid: 3f0c572e-6162-4408-9ff3-660afcfb762f
+langcode: en
+status: true
+dependencies: {  }
+name: hero_double_height_large
+label: 'Hero Double Height Large'
+effects:
+  6e41c277-5e1d-41b8-89ce-4c137da5290d:
+    uuid: 6e41c277-5e1d-41b8-89ce-4c137da5290d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 2000
+      height: 1200

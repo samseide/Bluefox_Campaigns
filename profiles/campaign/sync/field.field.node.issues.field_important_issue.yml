@@ -1,0 +1,23 @@
+uuid: 87c8d42a-2fcf-4865-9ff0-af3c7e4f5a23
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_important_issue
+    - node.type.issues
+id: node.issues.field_important_issue
+field_name: field_important_issue
+entity_type: node
+bundle: issues
+label: 'Top Issue'
+description: 'One of the most important issues to you candidate. Checking this box will make this issue available to be seen in the top issues section.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

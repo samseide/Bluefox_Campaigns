@@ -1,0 +1,20 @@
+uuid: 76a3f97c-ef71-4e27-845d-9458916a5cb8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bluefox
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: bluefox_local_actions
+theme: bluefox
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

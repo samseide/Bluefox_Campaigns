@@ -1,0 +1,56 @@
+uuid: 862167f6-5394-475a-9d95-7da844b2b5d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_top_issue
+    - paragraphs.paragraphs_type.top_issues
+    - views.view.issues
+  module:
+    - viewsreference
+id: paragraph.top_issues.field_top_issue
+field_name: field_top_issue
+entity_type: paragraph
+bundle: top_issues
+label: 'Top Issues'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    options:
+      title: 0
+      argument: ''
+    display_id: block_1
+    argument: null
+    title: 0
+    data: null
+    target_uuid: bc7d61ff-b3b9-4383-861e-dc735c352bbd
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    block: block
+    default: 0
+    page: 0
+    feed: 0
+  preselect_views:
+    issues: issues
+    block_content: 0
+    comment: 0
+    comments_recent: 0
+    content: 0
+    content_recent: 0
+    files: 0
+    frontpage: 0
+    latest_news: 0
+    media: 0
+    taxonomy_term: 0
+    user_admin_people: 0
+    watchdog: 0
+    who_s_new: 0
+    who_s_online: 0
+field_type: viewsreference

@@ -1,0 +1,21 @@
+uuid: 009aa812-046d-456f-b860-b9f1ddedb4cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body_copy
+    - paragraphs.paragraphs_type.body_copy
+  module:
+    - text
+id: paragraph.body_copy.field_body_copy
+field_name: field_body_copy
+entity_type: paragraph
+bundle: body_copy
+label: 'Body Copy'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
